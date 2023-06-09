@@ -10,10 +10,10 @@
     },
     {
       "path": "index.html",
-      "title": "BLOG",
+      "title": "Helen's Blog",
       "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2023-06-09T12:35:14+10:00"
+      "contents": "\nWelcome to my HDS blog.\n\n\n\n",
+      "last_modified": "2023-06-09T17:47:05+10:00"
     }
   ],
   "collections": ["posts/posts.json"]
