@@ -1,19 +1,36 @@
 [
   {
-    "path": "posts/welcome/",
-    "title": "Welcome to BLOG",
-    "description": "Welcome to our new blog, BLOG. We hope you enjoy \nreading what we have to say!",
+    "path": "posts/2023-06-09-i-love-blogging/",
+    "title": "I love blogging",
+    "description": "a bunch about blogging",
     "author": [
       {
-        "name": "Nora Jones",
-        "url": "https://example.com/norajones"
+        "name": "helen x0b",
+        "url": {}
       }
     ],
     "date": "2023-06-09",
     "categories": [],
-    "contents": "\n\n\n\n",
+    "contents": "\nSome words by me\nLearn more about using Distill at https://rstudio.github.io/distill.\nhere’s some r code\n\n\nplot(iris)\n\n\n\n\n\n\n",
+    "preview": "posts/2023-06-09-i-love-blogging/i-love-blogging_files/figure-html5/unnamed-chunk-1-1.png",
+    "last_modified": "2023-06-09T13:47:40+10:00",
+    "input_file": "i-love-blogging.knit.md"
+  },
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to BLOG",
+    "description": "by Helen PhD RN",
+    "author": [
+      {
+        "name": "Helen",
+        "url": {}
+      }
+    ],
+    "date": "2023-06-09",
+    "categories": [],
+    "contents": "\n\nHOW TO MAKE THIS WEBSITE\n\nFOLLOW THE STEPS HERE (WITH A TWEAK)\nhttps://youtu.be/unur6FBh_x0\n\nPRE-REQUISITES\n\nDownload R\n\nDownload R Studio\n\nInstall packages:\ndistill\nusethis\ngircreds\n\nMake a github (online) profile\n\nLink your R Studio to github : steps 9.1, 9.3, 9.4 (in guide by Jenny Bryan https://happygitwithr.com/https-pat.html)\nGo to GITHUB - Create a repo(sitory)\nNew\nPublic\n\nGo to R Studio\nclone from github (online) to local drive (R Studio)\nStill in RStudio – create a file structure locally for the blog\nInstall.packages(“distill”, dependencies = TRUE)\nlibrary(distill)\ntell it to make a blog\nClose RStudio to make the build tab appear\nBack to GITHUB and select Settings > Pages > and set up\nSo built from the /docs folder in the main branch\nBack to RStudio\nIn console:\nfile.create(“.nojekyll”)\nconfirmed by response TRUE\nStill in RStudio\nSet up docs folder in local version of blog\nEdit the _site.yml file\noutput_dir: docs\nsave\nIn lower right files panel, delete _site which is not used\nStill in RSudio select Build tab\nSelect BUILD WEBSITE (this talks to distill to build the folder locally)\nResult will be news files created locally including docs folder\nRStudio\nAdditional step\nTell git to see the docs folder\nEdit gitignore\nComment out the docs/\nsave\nselect git tab\nselect all, stage, commit, add comment, push to git,\ngo to git hub, all the docs are there\ngo to pages, and you can follow the link to the live blog hosted from github (and not locally)\nNow back in RStudio, lets add some pages,\nlibrary(distill)\ncreate_post(“I love blogging”)\nadd some content to the file (top right), can also include {r} code and include the code and the output using echo=TRUE\nsave and knit\npreview from local version *not yet on github\n\n\n\n",
     "preview": {},
-    "last_modified": "2023-06-09T12:22:11+10:00",
-    "input_file": {}
+    "last_modified": "2023-06-09T14:01:20+10:00",
+    "input_file": "welcome.knit.md"
   }
 ]

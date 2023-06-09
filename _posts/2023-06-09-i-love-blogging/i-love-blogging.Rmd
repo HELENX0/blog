@@ -1,0 +1,28 @@
+---
+title: "I love blogging"
+description: |
+  a bunch about blogging    
+author:
+  - name: helen x0b
+date: 2023-06-09
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Some words by me
+
+
+Learn more about using Distill at <https://rstudio.github.io/distill>.
+
+here's some r code
+```{r, echo=TRUE}
+plot(iris)
+```
+
+

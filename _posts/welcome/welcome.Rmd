@@ -1,13 +1,11 @@
 ---
 title: "Welcome to BLOG"
 description: |
-  Welcome to our new blog, BLOG. We hope you enjoy 
-  reading what we have to say!
+  by Helen PhD RN
 author:
-  - name: Nora Jones 
-    url: https://example.com/norajones
-    affiliation: Spacely Sprockets
-    affiliation_url: https://example.com/spacelysprokets
+  - name: Helen 
+    affiliation: student of UNSW HDS
+    affiliation_url: https://hds-teaching-cbdrh-med-unsw-edu-au.github.io/hdat9800/
 date: 06-09-2023
 output:
   distill::distill_article:
@@ -21,6 +19,80 @@ knitr::opts_chunk$set(echo = FALSE)
 # https://rstudio.github.io/distill/blog.html
 
 ```
+
+<H1> HOW TO MAKE THIS WEBSITE
+
+<P>FOLLOW THE STEPS HERE (WITH A TWEAK)
+https://youtu.be/unur6FBh_x0
+
+<H3>PRE-REQUISITES
+<li>Download R
+<li>Download R Studio
+<li>Install packages: 
+distill
+usethis
+gircreds
+<li> Make a github (online) profile
+<li> Link your R Studio to github : steps 9.1, 9.3, 9.4 (in guide by Jenny Bryan https://happygitwithr.com/https-pat.html) 
+
+
+
+1. Go to GITHUB - Create a repo(sitory)
+a. New
+b. Public
+c. create an ignore
+d. no need for licence
+
+2.	Go to R Studio 
+a.	clone from github (online) to local drive (R Studio)
+3.	Still in RStudio – create a file structure locally for the blog
+a.	Install.packages(“distill”, dependencies = TRUE)
+library(distill)
+tell it to make a blog
+4.	Close RStudio to make the build tab appear
+5.	Back to GITHUB and select Settings > Pages > and set up 
+a.	So built from the /docs folder in the main branch
+6.	Back to RStudio
+a.	In console:
+file.create(“.nojekyll”)
+confirmed by response TRUE
+7.	Still in RStudio
+Set up docs folder in local version of blog
+Edit the _site.yml file
+output_dir: docs
+save
+
+In lower right files panel, delete _site which is not used
+
+8.	Still in RSudio select Build tab 
+a.	Select BUILD WEBSITE (this talks to distill to build the folder locally)
+b.	Result will be news files created locally including docs folder
+
+9.	RStudio
+Additional step
+Tell git to see the docs folder
+Edit gitignore
+Comment out the docs/
+save
+
+select git tab
+select all, stage, commit, add comment, push to git,
+
+go to git hub, all the docs are there
+
+go to pages, and you can follow the link to the live blog hosted from github (and not locally)
+
+Now back in RStudio, lets add some pages,
+library(distill)
+create_post("I love blogging")
+
+add some content to the file (top right), can also include {r} code and include the code and the output using echo=TRUE
+save and knit
+preview from local version *not yet on github
+
+
+
+
 
 
 
