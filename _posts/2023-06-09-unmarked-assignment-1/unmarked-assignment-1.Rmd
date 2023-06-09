@@ -25,7 +25,7 @@ knitr::opts_chunk$set(echo = FALSE)
 - While better than the infamous pie chart, I doubt the bar chart is always better.
 - The advantage of bar charts - that are well labelled and have good data : aesthetics or ink ratios - is that comparison of counts or across categories can be made quickly.
 - But bar charts are not good for showing a number of other data concepts, for example time (need a series of bar charts or timeline), geospatial data, clusters (eg scatterplot), distributions (a histogram or density plot) or proportions (a stacked bar might be).
-- This is a [handy link](https://github.com/Financial-Times/chart-doctor/blob/main/visual-vocabulary/Visual-vocabulary-en.pdf) for countering such a comment from a colleague.
+- This is a [handy link](https://github.com/Financial-Times/chart-doctor/blob/main/visual-vocabulary/Visual-vocabulary-en.pdf) (excerpt shown) for countering such a comment from a colleague.
 ![FT Visual Vocabulary](images/FT_excerpt.jpg)
 
 **3. When communicating it is very important to 'know your ...'? Finish this sentence.** 
