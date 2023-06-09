@@ -5,8 +5,10 @@ navbar:
   right:
     - icon: fab fa-github
       href: https://github.com/aosmith16/personal-website 
-    - text: "Home"
+    - text: "home"
       href: index.html
+    - text: "UNSW work"
+      href: UNSW_work.html      
     - text: "RMIT work"
       href: RMIT_work.html
 output: distill::distill_article
