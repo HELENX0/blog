@@ -12,5 +12,6 @@ links:
     url: "mailto:z5475898@ad.unsw.edu.au"
 output:
   postcards::jolla
-site: distill::distill_website
 ---
+ 
+I need a recent photo and I need to add my twitter and linked in social links

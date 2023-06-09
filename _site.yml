@@ -3,8 +3,6 @@ title: "helen's blog"
 output_dir: "docs"
 navbar:
   right:
-    - icon: fab fa-github
-      href: https://github.com/HELENX0/blog
     - text: "home"
       href: index.html
     - text: "UNSW work"
