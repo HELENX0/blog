@@ -2,7 +2,7 @@ name: "."
 title: "BLOG"
 output_dir: "docs"
 navbar:
-  left:
+  right:
     - icon: fab fa-github
       href: https://github.com/aosmith16/personal-website 
     - text: "Home"
