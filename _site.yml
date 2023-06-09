@@ -1,5 +1,5 @@
 name: "."
-title: "BLOG"
+title: "helen's blog"
 output_dir: "docs"
 navbar:
   right:

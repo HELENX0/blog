@@ -12,8 +12,15 @@
       "path": "index.html",
       "title": "Helen's Blog",
       "author": [],
-      "contents": "\nWelcome to my HDS blog.\n\n\n\n",
-      "last_modified": "2023-06-09T17:47:05+10:00"
+      "contents": "\n\n\n\n",
+      "last_modified": "2023-06-09T18:05:28+10:00"
+    },
+    {
+      "path": "RMIT_work.html",
+      "title": "RMIT work",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2023-06-09T18:05:52+10:00"
     }
   ],
   "collections": ["posts/posts.json"]
